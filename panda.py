@@ -38,3 +38,5 @@ df.sort_values(['Type 1' , 'Type 2'] , ascending=[False , True]) # To Sort data
 # To read huge data
 for df in pd.read_csv('Pokemon.csv' , chunksize=5):
     pass
+
+#end
